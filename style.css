@@ -8,7 +8,6 @@ body {
 
 .indexbod {
     background: red;
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -22,7 +21,6 @@ body {
 
 .indexh1 {
     text-align: left;
-    display: flex;
     font-size: 50px;    
     width: 400px;
     margin-left: -30px;
@@ -56,14 +54,6 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .logo {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-} */
-
 .portnav {
     display: flex;
     flex-direction: row;
@@ -72,18 +62,6 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    justify-content: center;
-    width: auto;
-    margin: 40px;
-}
-
-.project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 embed {
     border: 5px solid white;

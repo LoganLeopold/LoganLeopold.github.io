@@ -1,0 +1,22 @@
+{
+  "name": "loganleopold.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoganLeopold/LoganLeopold.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoganLeopold/LoganLeopold.github.io/issues"
+  },
+  "homepage": "https://github.com/LoganLeopold/LoganLeopold.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
