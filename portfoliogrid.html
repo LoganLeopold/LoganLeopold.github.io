@@ -1,35 +1,47 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
-</head>
+  </head>
 
-<body class="portbod">
+  <body class="portbod">
     <header>
-            <h1 id="porthead">Portfolio</h1>
+      <h1 id="porthead">Portfolio</h1>
     </header>
 
     <nav class="portnav">
-            <div>
-                <a class="nav" href="index.html">Home</a>
-            </div>
-            <div>
-                <a class="nav" href="aboutme.html">About Me</a>
-            </div>
-        </nav>
+      <div>
+        <a class="nav" href="index.html">Home</a>
+      </div>
+      <div>
+        <a class="nav" href="aboutme.html">About Me</a>
+      </div>
+    </nav>
 
     <div class="container">
-            <label>Rolling Code</label>
-            <label>Application Manager</label>
-            <embed src="https://loganleopold.github.io/Trivia/" style="width:400px; height:250px;">                            
-            <embed src="https://loganapplicationmanager.herokuapp.com/" style="width:400px; height:250px;">
+      <div class="row">
+        <div class="col-6 project">
+          <label>Rolling Code</label>
+          <embed
+            src="https://loganleopold.github.io/Trivia/"
+            style="width:400px; height:250px;"
+          />
+        </div>
+
+        <div class="col-6 project">
+          <label>Application Manager</label>
+          <embed
+            src="https://loganapplicationmanager.herokuapp.com/"
+            style="width:400px; height:250px;"
+          />
+        </div>
+
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>

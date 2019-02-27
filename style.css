@@ -1,3 +1,4 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 .indexbod {
     background: red;
@@ -73,6 +74,13 @@ ul {
     margin: 40px;
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 embed {
     border: 5px solid white;
     margin: 10px;
@@ -104,4 +112,9 @@ embed {
 
 .aboutmebod {
     background: red;
+}
+
+label {
+    color: white;
+    font-size: 18px;
 }
