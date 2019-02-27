@@ -73,9 +73,6 @@ ul {
 }
 
 .container {
-    display: grid;
-    /* grid-template-rows:  */
-    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     width: auto;
     margin: 40px;
