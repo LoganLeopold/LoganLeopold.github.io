@@ -2,26 +2,40 @@
 
 
 body { 
-    max-width: 100%;
-    max-height: 100%
+    background: red;
+    align-content: center;
+    margin: auto;
+    padding: 10%;
+    color: white;
+    text-shadow: -.5vh .25vh .5vh rgba(0,0,0,0.3);
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+}
+
+header {
+    font-size: 10vh;
+    color: white;
+    margin: 20px;
+    text-align: center;
 }
 
 .indexbod {
     background: red;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    align-content: center;
     margin: auto;
     padding: 10%;
     color: white;
-  
-
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
 }
 
 
 .indexh1 {
     text-align: left;
-    font-size: 50px;    
+    font-size: 7vh;    
     width: 400px;
     margin-left: -30px;
 
@@ -34,7 +48,7 @@ p {
     font-size: 20px;
     margin-top: -10px;
     margin-left: -30px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -.25vh .25vh .25vh rgba(0,0,0,0.2);
 }
 
 ul {
@@ -51,7 +65,6 @@ ul {
     font-size: 25px;
     color: white;
     margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portnav {
@@ -59,7 +72,6 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -68,7 +80,7 @@ embed {
     margin: 5px;
     padding: 5px;
     background: transparent;
-    
+    box-shadow: -1vh 1vh 1vh rgba(0,0,0,0.3);
 }
 
 #porthead {
@@ -76,7 +88,6 @@ embed {
     text-align: center;
     font-size: 50px;    
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portbod {
@@ -89,7 +100,6 @@ embed {
     text-align: left;
     font-size: 50px;    
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .aboutmebod {
@@ -100,3 +110,11 @@ label {
     color: white;
     font-size: 18px;
 }
+
+.col-6 {
+  
+}
+
+/* .col-12 {
+    box-shadow: -.5vh .25vh .5vh rgba(0,0,0,0.3);
+} */
