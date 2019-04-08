@@ -1,6 +1,5 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-
 body { 
     background: red;
     align-content: center;
@@ -75,15 +74,6 @@ ul {
     align-items: center;
 }
 
-
-embed {
-    border: 5px solid white;
-    margin: 5px;
-    padding: 5px;
-    background: transparent;
-    box-shadow: -1vh 1vh 1vh rgba(0,0,0,0.3);
-}
-
 #porthead {
     color: white;
     text-align: center;
@@ -110,4 +100,18 @@ embed {
 label {
     color: white;
     font-size: 18px;
+}
+
+img {
+    max-width: 50vh;
+    max-height: 40vh;
+    margin: 0;
+}
+
+.imgStyle {
+    border: 5px solid white;
+    margin: 0 5px 5px 5px;
+    padding: 1.5px;
+    background: transparent;
+    box-shadow: -1vh 1vh 1vh rgba(0,0,0,0.3);
 }
