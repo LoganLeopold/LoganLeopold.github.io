@@ -12,6 +12,13 @@ body {
     font-weight: bold;
 }
 
+div {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 header {
     font-size: 10vh;
     color: white;
@@ -114,4 +121,8 @@ img {
     padding: 1.5px;
     background: transparent;
     box-shadow: -1vh 1vh 1vh rgba(0,0,0,0.3);
+}
+
+a {
+    margin: 0 0 4vh 0;
 }
